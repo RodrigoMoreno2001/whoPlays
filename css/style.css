@@ -11,7 +11,7 @@ body{
 }
 
 nav{
-    min-height: 5vh;
+    min-height: 10vh;
     min-width: 80vw;
 }
 nav a{
@@ -32,6 +32,21 @@ nav a{
 main{
     min-height: 95vh;
     color:aliceblue;
+}
+.botonSlider{
+    background-color: rgba(255, 76, 76, 0);
+    border:1px solid rgba(211, 22, 22, 0);
+    border-radius: 1em;
+}
+
+.carousel-item img{
+    border-radius: 1em;
+}
+
+.imgSlider{
+    object-fit: auto; 
+    object-position: center;
+    max-height: 35vw;
 }
 .boton{
     width:150px;
