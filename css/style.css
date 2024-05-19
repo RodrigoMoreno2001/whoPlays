@@ -4,15 +4,20 @@
     margin: 0;
     padding: 0;
 }
+p{
+    margin:0;
+}
 
 body{
     background-color:  rgb(46, 46, 46);
     overflow-x: hidden;
 }
-
+header{
+    background:rgb(17, 17, 17);
+}
 nav{
     min-height: 10vh;
-    min-width: 80vw;
+    width: 80vw;
 }
 nav a{
     color:aliceblue;
@@ -31,7 +36,10 @@ nav a{
 
 main{
     min-height: 95vh;
-    color:aliceblue;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);       
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .botonSlider{
     background-color: rgba(255, 76, 76, 0);
@@ -42,6 +50,9 @@ main{
 .carousel-item img{
     border-radius: 1em;
 }
+.carousel-item{
+    user-select: none;
+}
 
 .imgSlider{
     object-fit: auto; 
@@ -51,10 +62,16 @@ main{
 .boton{
     width:150px;
     height: 50px;
-    border:2px solid rgb(255, 255, 255);
+    border:2px solid rgba(252, 70, 252, 0.664);
     border-radius: 2em;
     cursor: pointer;
     user-select: none;
+}
+
+.bloque{
+    border:3px solid rgba(252, 70, 252, 0.664);
+    border-radius: 2em;
+    padding: 15px;
 }
 
 footer{

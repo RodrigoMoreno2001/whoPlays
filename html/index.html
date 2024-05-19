@@ -11,7 +11,12 @@
 </head>
 <body class="d-flex align-items-center flex-column">
 
-    <header>
+    <!-- HEADER -->
+
+    <header class="w-100 d-flex align-items-center justify-content-center">
+
+        <!-- NAVBAR -->
+
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">WhoPlays?</a>
@@ -29,13 +34,16 @@
         </nav> 
     </header>
 
+     <!-- MAIN -->
+
     <main class="d-flex flex-column align-items-center col-12 col-lg-10">
+
+      <!-- SLIDER -->
 
       <div id="carouselExampleInterval" class="carousel slide col-12" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
-            <img src="../img/csgo.jpg"
-              class="d-block w-100 img-fluid imgSlider" alt="...">
+            <img src="../img/csgo.jpg" class="d-block w-100 imgSlider" alt="CSGO.jpg">
           </div>
           <div class="carousel-item" data-bs-interval="10000">
             <img src="../img/csgo.jpg" class="d-block w-100 imgSlider" alt="...">
@@ -54,25 +62,28 @@
         </button>
       </div>
 
-        <div class="d-flex flex-column justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center mb-3">
             <h1 class="mt-5">Qué ofrece WhoPlays?</h1>
-            <p>WhoPlays facilita el encontrar amigos en línea</p>
+            <p>WhoPlays facilita encontrar amigos en línea</p>
 
             <div class="d-flex justify-content-around w-100">
-                <div class="boton d-flex justify-content-center align-items-center">NewFriends</div>
-                <div class="boton d-flex justify-content-center align-items-center">OldFriends</div>
+                <div class="boton d-flex justify-content-center align-items-center"><p>NewFriends</p></div>
+                <div class="boton d-flex justify-content-center align-items-center"><p>OldFriends</p></div>
             </div>
         </div>
-        <div class="mt-5 d-flex flex-column align-items-center">
-            <h1>New Friends</h1>
-            <p>¿No encuentras a nadie con quien jugar Terraria o Don't Starve Together?</p>
-            <p>Conoce a cientos de personas con tus mismos gustos y diviertete echando unas partidas</p>
+        <div class="col-md d-lg-flex justify-content-between w-100 mb-3">
+            <div class="col-lg-5 col-md-12 m-md-3 m-sm-3 d-flex flex-column align-items-center justify-content-center bloque">
+              <h1>New Friends</h1>
+              <p>¿No encuentras a nadie con quien jugar Terraria o Don't Starve Together?</p>
+              <p>Conoce a cientos de personas con tus mismos gustos y diviertete echando unas partidas</p>
+          </div>
+          <div class="col-lg-5 col-md-12 m-md-3 m-sm-3 d-flex flex-column align-items-center justify-content-center bloque">
+              <h1>Old Friends</h1>
+              <p>¿Has perdido contacto con alguien del pasado? ¿Echas de menos alguna actividad en línea?</p>
+              <p>Crea un nuevo foro en "OldFriends" y espera a que esa persona o actividad vuelva a tu vida.</p>
+          </div>
         </div>
-        <div class="mt-5 d-flex flex-column align-items-center">
-            <h1>Old Friends</h1>
-            <p>¿Has perdido contacto con alguien del pasado? ¿Echas de menos alguna actividad en línea?</p>
-            <p>Crea un nuevo foro en "OldFriends" y espera a que esa persona o actividad vuelva a tu vida.</p>
-        </div>
+
     </main>
 
     <footer class="d-flex  mt-auto p-4">
