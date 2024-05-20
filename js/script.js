@@ -7,7 +7,7 @@ setInterval(()=>{
 
     main.style.backgroundImage=`linear-gradient( ${deg}deg,  rgba(152,45,255,1) 0.7%, rgba(90,241,255,1) 50%, rgba(65,239,164,1) 100% )`;
 
-},50);
+},40);
 
 function subeBaja(){
     if(deg==360) deg=359;
